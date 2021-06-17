@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AlumnoActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        android:padding="50dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#036747"
+            android:textSize="18dp"
+            android:id="@+id/text_edit_user"
+            android:text="REGISTRAR ALUMNO"
+            android:textStyle="bold"/>
+
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Alumno_txtNombre"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/txtNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:drawableLeft="@drawable/ic_baseline_user"
+            android:background="@drawable/caja"/>
+
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Alumno_txtTelefono"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/txtTelefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:drawableLeft="@drawable/ic_baseline_format_list_numbered_24"
+            android:background="@drawable/caja"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Alumno_txtDNI"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/txtDNI"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/caja"
+            android:drawableLeft="@drawable/ic_baseline_done_outline_24"
+            android:padding="5dp" />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Alumno_txtCorreo"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/txtCorreo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/caja"
+            android:drawableLeft="@drawable/ic_baseline_email_24"
+            android:padding="5dp" />
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>
